@@ -26,7 +26,7 @@ ICA14
 ICA15
 
 ## Weekly Assignments
-WA1 - https://github.com/dbchong3103/ATLS-2200/blob/main/WA/wa1.html
+WA1
 WA2
 WA3
 WA4
