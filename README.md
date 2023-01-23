@@ -26,7 +26,7 @@ For ATLS 2200 Web Assignments and More
 - ICA15
 
 ## Weekly Assignments
-- WA1
+- WA1: https://dbchong3103.github.io/ATLS-2200/
 - WA2
 - WA3
 - WA4
