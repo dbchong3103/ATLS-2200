@@ -9,8 +9,8 @@ For ATLS 2200 Web Assignments and More
 - JS
 
 ## In-Class Assignments
-- ICA1
-- ICA2
+- ICA1 - N/A
+- ICA2 - ICA2 -- Exploring Directory Structures (Week 2), https://docs.google.com/document/d/1nKofzn0kpIMYTkg8XuAe_4XBrXzj77yJBGPNV82KrXI/edit?usp=sharing
 - ICA3
 - ICA4
 - ICA5
@@ -26,8 +26,8 @@ For ATLS 2200 Web Assignments and More
 - ICA15
 
 ## Weekly Assignments
-- WA1: https://dbchong3103.github.io/ATLS-2200/
-- WA2
+- WA1: https://dbchong3103.github.io/wa/wa1.html
+- WA2: https://dbchong3103.github.io/wa/wa2.html
 - WA3
 - WA4
 - WA5
