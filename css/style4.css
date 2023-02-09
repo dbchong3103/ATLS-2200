@@ -43,4 +43,8 @@ body {
     float: right;
   }
 
-  
+  h1 
+
+  article {
+    background-color: rgba(0, 0, 0, 0.404);
+  }
