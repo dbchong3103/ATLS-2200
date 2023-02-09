@@ -38,7 +38,9 @@ body {
     border-radius: 0 0 1.5em 1.5em;
   }
   
-  .card article img{
+  .card article img {
     max-height: 100%;
     float: right;
   }
+
+  
