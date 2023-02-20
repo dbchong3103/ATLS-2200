@@ -54,19 +54,4 @@
     top: 0px;
     left: 390px;
   }
-  
- h1 {
-    position: absolute;
-    top: 12mm;
-    left: 20mm;
-    width: 128px;
-    height: 128px;
-    font-size: 20px;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 44px 0;
-    color: white;
-   
-  }
-  
-  /* Your CSS below here */
+
