@@ -13,7 +13,7 @@ For ATLS 2200 Web Assignments and More
 - ICA2 - ICA2 -- Exploring Directory Structures (Week 2), https://docs.google.com/document/d/1nKofzn0kpIMYTkg8XuAe_4XBrXzj77yJBGPNV82KrXI/edit?usp=sharing
 - ICA3 - N/A
 - ICA4 - https://dbchong.github.io/ica/ica4.html
-- ICA5
+- ICA5 - https://dbchong.github.io/ca/ica5/ica5.html
 - ICA6
 - ICA7
 - ICA8
@@ -29,8 +29,8 @@ For ATLS 2200 Web Assignments and More
 - WA1: https://dbchong3103.github.io/wa/wa1.html
 - WA2: https://dbchong3103.github.io/wa/wa2.html
 - WA3: https://dbchong3103.github.io/wa/wa3.html
-- WA4
-- WA5
+- WA4: https://dbchong3103.github.io/wa/wa4.html
+- WA5: https://dbchong3103.github.io/wa/wa5.html
 - WA6
 - WA7
 - WA8
