@@ -5,49 +5,26 @@ body{
 
 #flex-parent{
     display:flex;
+    flex-wrap: nowrap;
     background-color: orangered;
 }
 #flex-parent p{
     padding:5vw;
 }
 
-#grid-parent{
+.grid-parent{
     display:grid;
-}
-
-#grid-parent h1{
+    grid-template-columns: auto auto auto;
     background-color: grey;
     padding:3vw 5vh;
     margin:5vw;
+    padding: 10px
     
 }
-#no0{
 
-}
-#no1{
-
-}
-#no2{
-
-}
-#no3{
-
-}
-#no4{
-
-}
-#no5{
-
-}
-#no6{
-
-}
-#no7{
-
-}
-#no8{
-
-}
-#no9{
-
+.no {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
