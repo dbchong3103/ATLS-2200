@@ -14,7 +14,7 @@ For ATLS 2200 Web Assignments and More
 - ICA3 - N/A
 - ICA4 - https://dbchong.github.io/ica/ica4.html
 - ICA5 - https://dbchong.github.io/ca/ica5/ica5.html
-- ICA6
+- ICA6 - 
 - ICA7
 - ICA8
 - ICA9
