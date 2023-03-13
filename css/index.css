@@ -14,6 +14,7 @@ article {
     display: flex;
     flex-direction: column;
     background-color: #D9DBF1;
+    border: 10px solid white;
 }
 
 .headbar {
@@ -44,6 +45,8 @@ article {
     border-radius: 10px;
     flex-shrink: 1;
     margin: 30px;
+    margin-left: 100px;
+    margin-right: 0;
     display: flex;
     flex-direction: column;
     background-color: #977390;
