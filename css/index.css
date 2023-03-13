@@ -145,23 +145,21 @@ article {
     }
 
     article {
-        margin: 30px;
+        margin: 20px;
+    }
+
+    .headbar {
+        flex-direction: column;
     }
 
     .abt {
-        flex-direction: row;
+        flex-direction: column;
         margin: 10px;
     }
 
     .abt-title {
         display: flex;
         flex-direction: column;
-    }
-
-    .abt-img {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
     }
 
     .abt-img img {
