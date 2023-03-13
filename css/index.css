@@ -144,8 +144,13 @@ article {
         flex-direction: column;
     }
 
+    article {
+        margin: 30px;
+    }
+
     .abt {
         flex-direction: row;
+        margin: 10px;
     }
 
     .abt-title {
@@ -170,9 +175,11 @@ article {
     .gallery {
         display: flex;
         flex-wrap: wrap;
+        margin: 10px;
     }
 
     .gal-img {
         min-width: 40%;
+        padding: 5px;
     }
 }
