@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
 body {
-    background: red;
+    background: #BB8A89;
     margin: 0;
-    font-family: URW Chancery L, cursive;
+    color: white;
 }
 
 article {
@@ -9,30 +13,41 @@ article {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    background-color: beige;
+    background-color: #D9DBF1;
+    border: 10px solid white;
 }
 
 .headbar {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background-color: blueviolet;
-    padding: 10px;
+    background-color: #977390;
+    padding: 0px;
     white-space: nowrap;
+    font-family: 'Tilt Warp', cursive;
+    letter-spacing: 2px;
+}
+
+.title {
+    padding-left: 10px;
 }
 
 .abt-wrapper {
     display: flex;
     flex-direction: row;
+    font-family: 'Kalam', cursive;
 }
 
 .abt {
     border-radius: 10px;
     flex-shrink: 1;
-    margin: 20px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: #977390;
+    border: 7px double white;
 }
 
 .abt-title {
@@ -56,6 +71,7 @@ article {
     width: 70%;
     justify-content: center;
     align-self: center;
+    border: 5px solid white;
 }
 
 .abt p {
@@ -64,12 +80,14 @@ article {
 
 .gallery {
     border-radius: 10px;
-    background-color: blue;
+    background-color:#977390;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 30px;
+    font-family: 'Amatic SC', cursive;
+    border: 7px double white;
 }
 
 .gal-img {
@@ -107,17 +125,18 @@ article {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-right: 10px;
 }
 
 .socials img {
     width: 30px;
-    height: 30px;
+    height: auto;
     padding: 10px;
 }
 
 .socials a:hover {
     border-radius: 50%;
-    background-color: brown;
+    background-color: white;
 }
 
 @media only screen and (max-width: 700px) {
@@ -125,19 +144,22 @@ article {
         flex-direction: column;
     }
 
+    article {
+        margin: 20px;
+    }
+
+    .headbar {
+        flex-direction: column;
+    }
+
     .abt {
-        flex-direction: row;
+        flex-direction: column;
+        margin: 10px;
     }
 
     .abt-title {
         display: flex;
         flex-direction: column;
-    }
-
-    .abt-img {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
     }
 
     .abt-img img {
@@ -151,9 +173,11 @@ article {
     .gallery {
         display: flex;
         flex-wrap: wrap;
+        margin: 10px;
     }
 
     .gal-img {
         min-width: 40%;
+        padding: 5px;
     }
 }
