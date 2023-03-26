@@ -7,28 +7,33 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day."
+let storyText = "It was 94 fahrenheit inside the bunker... Things we're getting hot :insertx: knew they needed to do something, and fast, or everyone would die. When he got to :inserty:, he stared in horror as the large power source glowed a dangerous red, with Arabelle, his lover, trapped behind the door. The reactor suddenlt :insertz:. It was a tragedy, without the :inserty: It was hopeless. :insertx: had no other choice but to die, leaving Arabelle to fend for herself in this tragic apocalypse."
 
-const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"]
-const insertY = ["the soup kitchen","Disneyland","the White House"]
-const insertZ = ["spontaneously combusted","melted into a puddle on the sidewalk","turned into a slug and crawled away"]
+const insertX = ["Harry", "Percy", "Kane"]
+const insertY = ["the generator","the reactor","the core"]
+const insertZ = ["spontaneously combusted","oozed into thick radioactive lava","exploded into millions of debris"]
 
 randomize.addEventListener('click', result);
 
 function result() {
-  console.log('result')
+  let newStory = storyText;
+
   if(customName.value !== '') {
     const name = customName.value;
+    newStory = newStory.replaceAll("Arabelle", name)
 
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
+    const weight = Math.round(300/14);
+    let stones = weight.toString().concat(' ', "stones");
+    newStory = newStory.replaceAll("300 pounds", stones);
+
+    const temperature =  Math.round((94-32)*(5/9));
+    let centi = temperature.toString().concat(' ',"centigrade")
+    newStory = newStory.replaceAll("94 fahrenheit", centi)
 
   }
-
-  let newStory = storyText;
 
   let xItem = randomValueFromArray(insertX);
   let yItem = randomValueFromArray(insertY);
