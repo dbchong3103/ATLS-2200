@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
 body {
-  font-family: helvetica, sans-serif;
-  width: 350px;
+  background: #BB8A89;
+  margin: 0;
+  color: white;
 }
 
 label {
@@ -8,7 +13,12 @@ label {
 }
 
 div {
-  padding-bottom: 20px;
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: #977390;
+  border: 7px double white;
 }
 
 input[type="text"] {
@@ -17,8 +27,11 @@ input[type="text"] {
 }
 
 p {
-  background: #FFC125;
-  color: #5E2612;
-  padding: 10px;
-  visibility: hidden;
+  margin: 70px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #D9DBF1;
+  border: 10px solid white;
+  color: #AA336A;
 }
