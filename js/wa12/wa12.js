@@ -5,15 +5,15 @@ const mary =  {
     "department": "Finance",
     "designation": "Trainee",
     "salary": 18500,
-    "raise-eligible": true
+    "raise": true
 }
 
 const sam = {
     "first-name": "Sam",
     "department": "Tech",
     "designation": "Manager",
-    "salary": 400000,
-    "raise-eligible": true
+    "salary": 40000,
+    "raise": true
 }
 
 const bill = {
@@ -21,8 +21,12 @@ const bill = {
     "department": "HR",
     "designation": "Executive",
     "salary": 21200,
-    "raise-eligible": false
+    "raise": false
 }
+
+console.log(mary)
+console.log(sam)
+console.log(bill)
 
 //Problem 2
 const company = {
@@ -30,6 +34,8 @@ const company = {
     "website": "www.techstars.site",
     "employees": [mary,sam,bill]       
 }
+
+console.log(company)
 
 //Problem 3
 class Employee {
@@ -50,7 +56,26 @@ employeeArray.push(anna)
 console.log(company)
 
 //Problem 4
+const emps = company.employees
+console.log(emps)
+
+var sum = 0
+for (let i = 0; i < emps.length; i++) {
+    sum += emps[i].salary
+}
+console.log(sum)
 
 //Problem 5
 
+
+for (let i = 0; i < emps.length; i++) {
+    if (emps[i].raise == true) {
+        add = emps[i].salary*.1
+        newSal = emps[i].salary + add
+        console.log(newSal)
+        emps[i].raise = false
+    }
+}
+
 //Problem 6
+
