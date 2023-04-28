@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 body {
-    background: #ccc;
+    background: #dedede;
     margin: 0;
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -14,14 +14,18 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     background-color: #C59B76;
 }
-
+.items {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 article {
     background-color: white;
     padding: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
     border: 7px double #C59B76;
     border-radius: 10px;
+    margin-bottom: 2px;
 }
 
 article p {
@@ -97,17 +101,19 @@ img {
     border-radius: 10px;
     background-color:white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 10px;
     padding-top: 10px;
-    border: 7px double #C59B76;
+    font-size: medium;
 }
 
 .app img{
-    width: 20%;
+    position: relative;
+    width: 50%;
     height: auto;
+    margin-right: 15px;
 }
 
 .products {
@@ -134,6 +140,16 @@ img {
     padding: 10px;
 }
 
+.logo {
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px;
+    border: 7px double white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #chobani {
     margin-left: 0;
     width: 100%;
@@ -141,19 +157,28 @@ img {
 }
 
 .what {
+    text-align: center;
     background-color: #C59B76;
     display: block;
     padding: 20px;
-    margin: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 4px;
     border-radius: 10px;
 }
 
 .sus {
+    text-align: center;
     background-color: #C59B76;
     display: block;
     padding: 20px;
-    margin: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
     border-radius: 10px;
+}
+h2 {
+    background-color: #FF7070;
+    padding: 5px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -172,5 +197,13 @@ img {
     .abt {
         flex-direction: column;
         margin: 10px;
+    }
+
+    .products {
+        flex-direction: column;
+    }
+
+    .items {
+        flex-direction: column;
     }
 }
