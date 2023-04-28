@@ -12,8 +12,8 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    background-color: #C59B76;
 }
+
 .items {
     display: flex;
     flex-direction: row;
@@ -152,7 +152,7 @@ img {
 
 #chobani {
     margin-left: 0;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
@@ -167,6 +167,11 @@ img {
     border-radius: 10px;
 }
 
+.what:hover {
+    background-color: #FF7070;
+    transition: .7s ease;
+}
+
 .sus {
     text-align: center;
     background-color: #C59B76;
@@ -175,6 +180,11 @@ img {
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 10px;
+}
+
+.sus:hover {
+    background-color: #FF7070;
+    transition: .7s ease;
 }
 h2 {
     background-color: #FF7070;
