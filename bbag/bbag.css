@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    background: #dedede;
+    margin: 0;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+article {
+    background-color: white;
+    padding: 10px;
+    border: 7px double #C59B76;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+article p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img {
+    margin-left: 14%;
+    width: 70%;
+    height: auto;
+}
+
+.oop {
+    background-color: white;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 7px double #C59B76;
+    border-radius: 10px;    
+}
+
+.headbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #C59B76;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    background-color: #C59B76;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+.title {
+    padding-left: 10px;
+}
+
+.abt {
+    border-radius: 10px;
+    flex-shrink: 1;
+    margin: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 7px double #C59B76;
+}
+
+.abt-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.socials img {
+    width: 30px;
+    height: auto;
+    padding: 10px;
+}
+
+.app {
+    border-radius: 10px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+.app img{
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin-right: 15px;
+}
+
+.products {
+    border-radius: 10px;
+    background-color:#C59B76;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 7px double white;
+}
+
+.products img {
+    width: 20%;
+    height: auto;
+}
+
+.icons img {
+    align-items: left;
+    width: 30px;
+    height: auto;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 25%;
+    width: 50%;
+    padding: 10px;
+    border: 7px double white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#chobani {
+    margin-left: 0;
+    width: 70%;
+    height: auto;
+}
+
+.what {
+    text-align: center;
+    background-color: #C59B76;
+    display: block;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+
+.what:hover {
+    background-color: #FF7070;
+    transition: .7s ease;
+}
+
+.sus {
+    text-align: center;
+    background-color: #C59B76;
+    display: block;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+}
+
+.sus:hover {
+    background-color: #FF7070;
+    transition: .7s ease;
+}
+h2 {
+    background-color: #FF7070;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+    .abt-wrapper {
+        flex-direction: column;
+    }
+
+    article {
+        margin: 20px;
+    }
+
+    .headbar {
+        flex-direction: column;
+    }
+
+    .abt {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .products {
+        flex-direction: column;
+    }
+
+    .items {
+        flex-direction: column;
+    }
+}
