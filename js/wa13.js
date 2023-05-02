@@ -29,20 +29,3 @@ function returnVol() {
     let vol = document.getElementById("volume").value;
     alert('Your desired volume is: ' + vol + ", please solve the equation to confirm your change.");
 }
-
-function randomNumber(min, max) {
-    const num = Math.floor(Math.random() * (max - min + 1)) + min;
-    return num;
-  }
-
-
-
-const output = document.querySelector('.output');
-let outputInt = parseInt(output.textContent);
-
-const minusButton = document.querySelector('.minus-button').addEventListener('click', minus);
-const plusButton = document.querySelector('.plus-button').addEventListener('click', plus);
-const resetButton = document.querySelector('.reset-button').addEventListener('click', reset);
-const randomButton = document.querySelector('.random-button').addEventListener('click', random);
-const submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
- 
