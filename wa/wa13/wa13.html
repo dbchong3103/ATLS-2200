@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Volume Changer</title>
+    <link rel="stylesheet" href="wa13.css">
+    <script defer src="wa13.js"></script>
+</head>
+<body>
+    <article>
+        <div>
+            <h1>VOLUME CHANGER</h1>
+        </div>
+        <div>
+            <h2>Please select your desired volume.</h2>
+            <p>Current Volume:</p>
+            <p class="output">50</p>
+        </div>
+    
+        <div class="buttons">
+            <form>
+                <input class="minus-button" type="button" name="minus-button" value="MINUS">
+                <input class="plus-button" type="button" name="plus-button" value="PLUS">
+                <input class="reset-button" type="button" name="reset-button" value="RESET">
+                <input class="random-button" type="button" name="random-button" value="RANDOM">
+                <input class="submit-button" type="button" name="submit-button" value="SUBMIT">
+            </form>
+        </div>
+        <div>
+            <h2>Please round up to the nearest thousandth place.</h2>
+            <input type="button" value="Generate equation" onclick=generate()>
+            <p style="font-size:60px;" id="p1"></p>
+        </div> 
+        <div>
+            <h3>Input Answer Here</h3>
+            <input type="value" id="answer" name="answer">
+            <button type="submit" onclick=returnAns()>Submit</button>
+        </div>
+    </article>
+</body>
+</html>
