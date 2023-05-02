@@ -15,17 +15,18 @@
         </div>
         <div>
             <h2>Please insert your desired volume, anywhere from 0 to 100.</h2>
-            <input type="value" id="volume" name="volume">
+            <input type="number" id="volume" name="volume">
             <button type="submit" onclick=returnVol()>Submit</button>
         </div>
         <div>
             <h2>Please round up to the nearest thousandth place.</h2>
+            <p>Note: All trig functions should be calculated in radians.</p>
             <input type="button" value="Generate equation" onclick=generate()>
             <p style="font-size:60px;" id="p1"></p>
         </div> 
         <div>
             <h3>Input Answer Here</h3>
-            <input type="value" id="answer" name="answer">
+            <input type="number" id="answer" name="answer">
             <button type="submit" onclick=returnAns()>Submit</button>
         </div>
     </article>

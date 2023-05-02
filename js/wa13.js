@@ -1,9 +1,9 @@
 let x = Math.random().toFixed(3)
 let y = (100*Math.random()).toFixed(3)
 let z = (10*Math.random()).toFixed(3)
-let a = (10*Math.random()).toFixed(0)
+let a = (10*Math.random()).toFixed(3)
 
-let result = (x-y)*z/a
+let result = (x-y)*Math.cos(z)/(Math.sin(a))
 let ans = result.toFixed(3)
 console.log(ans)
 
@@ -12,7 +12,7 @@ function getRandomInt (min, max) {
 }
 
 function generate() {
-    document.getElementById("p1").innerHTML= "("+ x + " - " + y + ")" + " x " + z + "/"+ a + ' = ?';
+    document.getElementById("p1").innerHTML= "("+ x + " - " + y + ")" + " x cos(" + z + ")/sin("+ a + ') = ?';
 }
 
 function returnAns() {
