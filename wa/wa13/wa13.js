@@ -25,32 +25,9 @@ function returnAns() {
     }
 }
 
-function submit() {
-    alert('Your desired volume is: ' + output.textContent + ", please solve the equation to confirm your change.");
-}
-
-function reset() {
-    outputInt = 0;
-    output.textContent = outputInt;
-}
-
-function minus() {
-    if (outputInt > 0) {
-    outputInt -=1;
-    output.textContent = outputInt; }
-    
-}
-
-function plus() {
-    if (outputInt < 100) {
-    outputInt +=1;
-    output.textContent = outputInt;
-    }
-}
-
-function random() {
-    outputInt = randomNumber(0, 100);
-    output.textContent = outputInt;
+function returnVol() {
+    let vol = document.getElementById("volume").value;
+    alert('Your desired volume is: ' + vol + ", please solve the equation to confirm your change.");
 }
 
 function randomNumber(min, max) {

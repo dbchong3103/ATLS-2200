@@ -14,19 +14,9 @@
             <h1>VOLUME CHANGER</h1>
         </div>
         <div>
-            <h2>Please select your desired volume.</h2>
-            <p>Current Volume:</p>
-            <p class="output">50</p>
-        </div>
-    
-        <div class="buttons">
-            <form>
-                <input class="minus-button" type="button" name="minus-button" value="MINUS">
-                <input class="plus-button" type="button" name="plus-button" value="PLUS">
-                <input class="reset-button" type="button" name="reset-button" value="RESET">
-                <input class="random-button" type="button" name="random-button" value="RANDOM">
-                <input class="submit-button" type="button" name="submit-button" value="SUBMIT">
-            </form>
+            <h2>Please insert your desired volume, anywhere from 0 to 100.</h2>
+            <input type="value" id="volume" name="volume">
+            <button type="submit" onclick=returnVol()>Submit</button>
         </div>
         <div>
             <h2>Please round up to the nearest thousandth place.</h2>
