@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ 127.022139,37.598054 ]
+   },
+   "properties": {
+   "University Name":"Korea University",
+   "Student Count":37493,
+   "Location":" Seongbuk-gu"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ 126.946831, 37.470285 ]
+   },
+   "properties": {
+   "University Name":"Seoul National University",
+   "Student Count":27813,
+   "Location":" Gwanak-gu"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ 126.943114, 37.576202 ]
+   },
+   "properties": {
+   "University Name":"Yonsei University",
+   "Student Count":38213,
+   "Location":"Seodaemun-gu"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ 127.044816, 37.55606 ]
+   },
+   "properties": {
+   "University Name":"Hanyang University",
+   "Student Count":15477,
+   "Location":" Seongdong-gu"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ 126.970073,37.610105 ]
+   },
+   "properties": {
+   "University Name":"Sungkyunkwan University",
+   "Student Count":27034,
+   "Location":" Jongno-gu "
+   }
+ }
+]
+}
