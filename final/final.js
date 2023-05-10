@@ -1,12 +1,3 @@
-// window.onLoad = resize();
-// window.addEventListener('resize', function(e){resize();});
-// function resize() {
-//   this.w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-//   this.h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-//   document.getElementById('svg').setAttribute('width', this.w);
-//   document.getElementById('svg').setAttribute('height', this.h*0.75);
-// }
-
 // Get the modal for allfive images...
 var modal1 = document.getElementById('myModal1');
 var modal2 = document.getElementById('myModal2');
@@ -39,7 +30,6 @@ box1.onclick = function(){
 box2.onclick = function(){
     console.log("click")
     modal2.style.display = "block";
-    captionText.innerHTML = ;
 }
 
 box3.onclick = function(){
