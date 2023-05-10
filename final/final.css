@@ -2,16 +2,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
-body{
-    background-color: #977390;
+/*Toggle*/
 
+:root{
+    --h2-color: white;
+    --art-color: linear-gradient(rgb(42, 156, 194), skyblue);
+    --h1-color: black;
+    --bg-color: #977390;
+}
+
+[data-theme=dark]{
+    --h2-color: black;
+    --art-color: darkblue;
+    --h1-color: white;
+    --bg-color: #BB8A89;
+}
+
+.content-wrapper {
+    text-align: center;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg-color);
+    width: 100%;
 }
 
 h1 {
     font-family: 'Kalam', cursive;
     font-size: 40px;
-    margin: 5%;
+    margin-top: 7%;
+    color: var(--h1-color);
     text-align: center;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    color: var(--h2-color);
 }
 
 article {
@@ -20,7 +48,7 @@ article {
     display: block;
     width: 1200px;
     height: 620px;
-    background-image: linear-gradient(rgb(42, 156, 194), skyblue);
+    background-image: var(--art-color);
     z-index: -1;
 }
 
@@ -41,7 +69,7 @@ article {
 
 .room1 {
     width: 120px;
-    position: fixed;
+    position: absolute;
     top: 170px;
     left: 550px;
     z-index: 2;
@@ -139,6 +167,11 @@ article {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal img{
+    width: 500px;
+    height: 500px;
 }
 
 /* Modal Content (image) */
@@ -279,7 +312,7 @@ article {
 	background: -webkit-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
 	background: -o-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
 	background: -ms-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
-	background: linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: linear-gradient(to top,  #fff 5%,#f1f1f1 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
 	
 	-webkit-border-radius: 100px;

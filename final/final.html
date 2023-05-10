@@ -52,7 +52,7 @@
                         <img class="room5" id="room5" src="scene5.png" alt="nursery">
                         <div class="box5" id="box5"></div>
                         <div id="myModal5" class="modal">
-                            <img class="modal-content" src="scene5.png" alt="nursery" tid="img05">
+                            <img class="modal-content" src="scene5.png" alt="nursery" id="img05">
                             <div id="caption5"></div>
                         </div>
                     </div>
@@ -87,13 +87,7 @@
                     <div class="cloud"></div>
                 </div>
             </div>
-            <!-- Day and Night theme toggle -->
-            <!-- <div class = "themeSwitch">
-                <label class="switch" for="checkbox">
-                    <input type="checkbox" id="checkbox">
-                    <div class="slider"></div>
-                </label>
-            </div> -->
+           
             <!-- <div class="nightSky">
                 <svg id="svg" width="400" height="400">
                     <defs>
@@ -112,8 +106,18 @@
                   </svg>
             </div> -->
         </article>
-        <div>
-            <h1>Welcome to NowHereNowhere.</h1>
+        <div class="textToggle">
+             <!-- Day and Night theme toggle -->
+             <div class="content-wrapper">
+                <h1>Welcome to NowHereNowhere.</h1>
+                <h2>Change for night or day.</h2>
+                <div class = "themeSwitch">
+                    <label class="switch" for="checkbox">
+                        <input type="checkbox" id="checkbox">
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+            </div>
         </div>
     </body>
 </html>

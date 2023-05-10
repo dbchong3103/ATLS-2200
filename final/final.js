@@ -20,11 +20,16 @@ var box3 = document.getElementById('box3');
 var box4 = document.getElementById('box4');
 var box5 = document.getElementById('box5');
 
-var captionText = document.getElementById("caption");
+var captionText1 = document.getElementById("caption1");
+var captionText2 = document.getElementById("caption2");
+var captionText3 = document.getElementById("caption3");
+var captionText4 = document.getElementById("caption4");
+var captionText5 = document.getElementById("caption5");
+
 
 box1.onclick = function(){
     modal1.style.display = "block";
-    captionText.innerHTML = this.alt;
+    captionText1.innerHTML = this.alt;
 }
 
 box2.onclick = function(){
