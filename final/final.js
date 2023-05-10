@@ -20,39 +20,55 @@ var box3 = document.getElementById('box3');
 var box4 = document.getElementById('box4');
 var box5 = document.getElementById('box5');
 
-var captionText1 = document.getElementById("caption1");
-var captionText2 = document.getElementById("caption2");
-var captionText3 = document.getElementById("caption3");
-var captionText4 = document.getElementById("caption4");
-var captionText5 = document.getElementById("caption5");
+const caption1 = document.querySelector('#caption1')
 
+function randomValueFromArray(array){
+    const random = Math.floor(Math.random()*array.length);
+    return array[random];
+}
+
+box1.addEventListener('click',newFact);
+
+let factiod = "fact";
+let newTidbit = factiod;
+
+const facts = ["The tv owner has been missing for years, only the static still buzzes", "Miraculously, his plant is still alive and the lights... always on.", "It is said that the young boy who used to sit here simply vanished, right... into... the screen"]
+
+function newFact() {
+    let newTidbit = factiod;
+    let sentence = randomValueFromArray(facts);
+    newTidbit = newTidbit.replaceAll(factoid, sentence);
+}
+
+caption1.textContent = newTidbit;
+console.log(caption1.textContent);
 
 box1.onclick = function(){
     modal1.style.display = "block";
-    captionText1.innerHTML = this.alt;
+
 }
 
 box2.onclick = function(){
-    console.log("click")
     modal2.style.display = "block";
+    captionText1.innerHTML = this.alt;
 }
 
 box3.onclick = function(){
     console.log("click")
     modal3.style.display = "block";
-    captionText.innerHTML = this.alt;
+    captionText3.innerHTML = this.alt;
 }
 
 box4.onclick = function(){
     console.log("click")
     modal4.style.display = "block";
-    captionText.innerHTML = this.alt;
+    captionText4.innerHTML = this.alt;
 }
 
 box5.onclick = function(){
     console.log("click")
     modal5.style.display = "block";
-    captionText.innerHTML = this.alt;
+    captionText5.innerHTML = this.alt;
 }
  
  
