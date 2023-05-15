@@ -1,21 +1,22 @@
 # ATLS-2200
 For ATLS 2200 Web Assignments and More
+#Note this has been updated for the summer semester for links to anything I did in the spring, please email me at dach8404@colorado.edu
 
 
 
 ## Projects
-- HTML: https://dbchong3103.github.io/html-midterm/page5.html
-- CSS: https://dbchong3103.github.io/
+- HTML:
+- CSS:
 - JS: 
 
 ## In-Class Assignments
-- ICA1 - N/A
-- ICA2 - ICA2 -- Exploring Directory Structures (Week 2), https://docs.google.com/document/d/1nKofzn0kpIMYTkg8XuAe_4XBrXzj77yJBGPNV82KrXI/edit?usp=sharing
-- ICA3 - N/A
-- ICA4 - https://dbchong3103.github.io/ica/ica4.html
-- ICA5 - https://dbchong3103.github.io/ica/ica5/ica5.html
-- ICA6 - https://dbchong3103.github.io/ica/ica6/ica6-part1.html
-- ICA7 - https://dbchong3103.github.io/ica/ica7/ica7.html
+- ICA1 - 
+- ICA2 -
+- ICA3 -
+- ICA4 - 
+- ICA5 - 
+- ICA6 - 
+- ICA7 - 
 - ICA8
 - ICA9
 - ICA10
@@ -26,13 +27,13 @@ For ATLS 2200 Web Assignments and More
 - ICA15
 
 ## Weekly Assignments
-- WA1: https://dbchong3103.github.io/wa/wa1.html
-- WA2: https://dbchong3103.github.io/wa/wa2.html
-- WA3: https://dbchong3103.github.io/wa/wa3.html
-- WA4: https://dbchong3103.github.io/wa/wa4.html
-- WA5: https://dbchong3103.github.io/wa/wa5.html
-- WA6: https://dbchong3103.github.io/wa/wa6/index.html
-- WA7: N/A
+- WA1: 
+- WA2: 
+- WA3: 
+- WA4: 
+- WA5: 
+- WA6: 
+- WA7: 
 - WA8:
 - WA9
 - WA10
