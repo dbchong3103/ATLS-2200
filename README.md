@@ -10,7 +10,7 @@ For ATLS 2200 Web Assignments and More
 - JS: 
 
 ## In-Class Assignments
-- [ICA1](https://docs.google.com/document/d/1jnfBBXF47mjqsWbRNzR5XJQG98UKryZLB5hpTUS64mc/edit)
+- [ICA1](https://docs.google.com/document/d/1jnfBBXF47mjqsWbRNzR5XJQG98UKryZLB5hpTUS64mc/edit?usp=sharing)
 - ICA2 -
 - ICA3 -
 - ICA4 - 
